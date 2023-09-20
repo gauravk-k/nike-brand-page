@@ -1,0 +1,148 @@
+:root{
+    --red:#d01c28;
+    --gray:#2e2e2e;
+}
+
+*{
+    margin: 0;
+    background-color: rgb(255, 241, 229);
+}
+.container{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+}
+
+button{
+    all:unset;
+    padding: 6px 16px;
+    background: var(--red);
+    height: 32px;
+    color: white;
+    font-weight: 500px;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    height: calc(100vh-72vh);
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+
+.hero h1{
+    font-weight: 550;
+    line-height: 102px;
+    font-size: 100px;
+}
+
+.hero p{
+    font-weight: 600;
+    color: var(--gray);
+    max-width: 400px;
+}
+
+.hero-btn{
+    display: flex;
+    gap:40px;
+
+}
+
+.hero-btn button{
+    font-size: 24px;
+}
+
+.sec-btn{
+    background: transparent;
+    color: var(--gray);
+    border: 1px solid gray;
+}
+
+.shopping{
+    font-size: 14px;
+    margin-bottom: 8px;
+
+}
+
+.shopping p{
+    color:red;
+    margin-bottom: 6px;
+}
+
+.brand-icons{
+    display: flex;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+
+button:hover{
+    color: rgb(0, 255, 0);
+}
+
+.hero-content p{
+    color: rgb(109, 109, 109);
+}
+
+/* .rotate{
+    width:480px;
+    height:480px;
+    animation: rotation infinite 3s linear;
+ }
+ 
+ @keyframes rotation{
+   from{
+     transform:rotate(0deg);
+   }
+   
+   to{
+     transform:rotate(360deg);
+   }
+ } */
+
+
+
+ .logo img {
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+  }
+  .logo img:hover {
+    width: 76px;
+    height: 86px;
+  }
+
+  /* .rotate{
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+  }
+  .rotate:hover {
+    width: 510px;
+    height: 590px;
+  } */
